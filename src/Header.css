@@ -1,4 +1,9 @@
 .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .head {
     height: fit-content;
     align-content: center;
     align-items: center;
@@ -6,10 +11,32 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 10vh;
 }
 
-.header .head-nav .ul1 {
+.header .head h1 {
+    font-weight: 400;
+    size: 72;
+}
+
+.header .head .head-nav .ul1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.header .head .head-nav .ul1 li {
+    padding-right: 48px;
+    font-weight: 400;
+}
+
+.header .body {
+    background-image: url('../public/main-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    zoom: 1.25;
+    padding-top: -20px;
 }
