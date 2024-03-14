@@ -1,0 +1,15 @@
+.header {
+    height: fit-content;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.header .head-nav .ul1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
