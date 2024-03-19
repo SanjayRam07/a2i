@@ -21,7 +21,7 @@ function Header() {
             <div className="content">
                 <h1>A² INFORMATICS</h1>
                 <h2>Be Simple! Be a Sample!</h2>
-                <img src="../public/explore.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL+'/EM.png'} alt="explore" />
             </div>
         </div>
     </div>
