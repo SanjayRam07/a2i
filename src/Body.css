@@ -1,0 +1,49 @@
+.body {
+    background-color: #FFE8DE;
+    height: fit-content;
+    width: 100vw;
+}
+
+.body .features h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.body .features .row1 img {
+    height: 50vh;
+    width: auto;
+    position:relative;
+}
+
+.body .features .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.body .features .row1 .col1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #FBFBFB;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    align-content: center;
+}
+.body .features .row1 .col1 .irow11 .logo img {
+    height: 3vh;
+    width: auto;
+    position: relative;
+    padding: 10px;
+}
+.body .features .row1 .col1 .irow11 {
+    display: flex;
+    flex-direction: row;
+}
