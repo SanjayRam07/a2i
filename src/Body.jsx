@@ -3,10 +3,10 @@ import './Body.css'
 function Body() {
     return (
         <div className="body">
-            <div className="features">
+            <div className="features spacing">
                 <h1>Features</h1>
                 <div className="row1">
-                    <img src={process.env.PUBLIC_URL+'/pana.png'} alt="pana" />
+                    <img className='pana' src={process.env.PUBLIC_URL+'/pana.png'} alt="pana" />
                     <div className="col1">
                         <div className="irow11">
                             <div className="logo circle">

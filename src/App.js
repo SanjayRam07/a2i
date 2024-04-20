@@ -1,6 +1,7 @@
 import './App.css';
 import Body from './Body';
 import Header from './Header';
+import Courses from './Courses';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet"></link>
       <Header/>    
       <Body/>
+      <Courses/>
     </div>
   );
 }

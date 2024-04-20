@@ -1,0 +1,16 @@
+.horizontal-scroll-pane {
+    width: 100%; /* Adjust the width as needed */
+    overflow-x: auto; /* Set horizontal overflow to auto */
+    white-space: nowrap; /* Prevent items from wrapping to new lines */
+}
+.scroll-content {
+    display: flex; /* Use flexbox to lay out items horizontally */
+    padding: 10px; /* Adjust padding as needed */
+}
+.item {
+    flex: 0 0 auto; /* Allow items to shrink or grow as needed */
+    width: 200px; /* Set the width of each item */
+    height: 100px; /* Set the height of each item */
+    background-color: #f0f0f0; /* Add background color */
+    margin-right: 10px; /* Add spacing between items */
+}
