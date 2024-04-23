@@ -2,7 +2,7 @@ import './Course.css'
 
 function Course(props) {
     return (
-    <div className="box">
+    <div className="box item">
         <div className="image">
             <img src={props.img} alt="" />
         </div>

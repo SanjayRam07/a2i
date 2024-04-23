@@ -13,8 +13,9 @@ function courses() {
                     <div className="col2">
                         <div className="horizontal-scroll-pane">
                             <div className="scroll-content">
-                                <Course img="../public/java.svg" title="Java - Novice to Pro" desc="Participants with little or no programming experience learn to create Java programs. Topics include object-oriented programming concepts, terminology, syntax, and hands-on practices."/>
-                                <Course title="Advanced Python Programming" desc="Whether you’re a novice or seasoned coder, this comprehensive course takes you from foundational basics to advanced proficiency. Explore Python’s core elements and build skills for real-world applications."/>
+                                <Course img={process.env.PUBLIC_URL+'/java-logo.png'} title="Java - Novice to Pro" desc="Participants with little or no programming experience learn to create Java programs. Topics include object-oriented programming concepts, terminology, syntax, and hands-on practices."/>
+                                <Course img="" title="Java - Novice to Pro" desc="Participants with little or no programming experience learn to create Java programs. Topics include object-oriented programming concepts, terminology, syntax, and hands-on practices."/>
+                                <Course img="" title="Java - Novice to Pro" desc="Participants with little or no programming experience learn to create Java programs. Topics include object-oriented programming concepts, terminology, syntax, and hands-on practices."/>
                             </div>
                         </div>
                     </div>

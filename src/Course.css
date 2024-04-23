@@ -9,8 +9,12 @@
 }
 .item {
     flex: 0 0 auto; /* Allow items to shrink or grow as needed */
-    width: 200px; /* Set the width of each item */
-    height: 100px; /* Set the height of each item */
+    width: 300px; /* Set the width of each item */
+    height: 400px; /* Set the height of each item */
     background-color: #f0f0f0; /* Add background color */
     margin-right: 10px; /* Add spacing between items */
+}
+div div img {
+    height: auto;
+    width: 100%;
 }
